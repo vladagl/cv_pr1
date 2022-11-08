@@ -1,0 +1,189 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rubik-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* rubik-500 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/rubik-v21-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rubik-v21-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* rubik-600 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/rubik-v21-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rubik-v21-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .y_column {
+    height: 1390px;
+    width: 1440px;
+  }
+  .y_column_wrapper {
+    display: grid;
+    grid-template-columns: 325px 1115px;
+  }
+
+  .y_column_columns {
+    width: 325px;
+    min-height: 1390px;
+    background-color: rgba(241, 255, 84, 0.34);
+  }
+  .y_column_contacts {
+    margin-left: 45px;
+  }
+  .contacts {
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .contacts_line {
+    margin-top: 10px;
+    margin-bottom: 38px;
+  }
+  .contacts_title {
+    margin-bottom: 21px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .contacts_text {
+    margin-bottom: 27px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .y_column_languages {
+    margin-left: 45px;
+  }
+  .languages {
+    margin-top: 27px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .languages_title {
+    margin-bottom: 21px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .languages_text {
+    margin-bottom: 27px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .social_pic_ld {
+    margin-top: 225px;
+    margin-left: 45px;
+  }
+  .social_pic_git {
+    margin-top: 225px;
+    margin-left: 26px;
+  }
+
+  .cv_resume {
+    margin-top: 112px;
+    margin-left: 61px;
+  }
+  .cv_title_name {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+  }
+  .cv_text_about {
+    margin-top: 41px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .subtitle {
+    margin-top: 83px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .category {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    margin-bottom: 22px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .date {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  p.category_text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .category_text_cyb {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 56px;
+  }
+  .skills_title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+  ul.hard_list {
+    margin-top: 24px;
+    margin-left: 20px;
+  }
+  .list_item {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
